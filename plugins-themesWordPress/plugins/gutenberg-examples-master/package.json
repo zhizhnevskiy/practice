@@ -1,0 +1,34 @@
+{
+	"name": "gutenberg-examples",
+	"version": "1.1.0",
+	"private": true,
+	"description": "Gutenberg Examples",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"editor",
+		"Examples"
+	],
+	"homepage": "https://github.com/WordPress/gutenberg-examples/",
+	"repository": "git+https://github.com/WordPress/gutenberg-examples.git",
+	"bugs": {
+		"url": "https://github.com/WordPress/gutenberg-examples/issues"
+	},
+	"devDependencies": {
+		"@wordpress/components": "^9.5.0",
+		"@wordpress/scripts": "^9.0.0",
+		"lerna": "^3.20.2"
+	},
+	"scripts": {
+		"build": "lerna run build",
+		"lint:js": "lerna run lint:js",
+		"lint:pkg-json": "wp-scripts lint-pkg-json ./package.json ./*-esnext/package.json",
+		"format:js": "wp-scripts format-js",
+		"lint:js:fix": "npm run lint:js -- --fix",
+		"test": "wp-scripts test-unit-js",
+		"env:start": "docker-compose up -d",
+		"env:stop": "docker-compose stop",
+		"packages-update": "wp-scripts packages-update"
+	}
+}

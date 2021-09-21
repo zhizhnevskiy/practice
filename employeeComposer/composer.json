@@ -1,0 +1,21 @@
+{
+    "name": "yz/composer",
+    "description": "MVC lesson",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zhiznevskiy Yura",
+            "email": "zhizhnevskiy@yandex.ru"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "StandardFlow\\" : "src"
+        }
+    }
+}

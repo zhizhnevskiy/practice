@@ -1,0 +1,20 @@
+/**
+ * Theme Name:  Zhizhnevskiy
+ * Author:      Yury Zhizhnevskiy
+ * Author URI:  https://innowise-group.com/
+ * Description: My first WordPress theme
+ * Tags:        First, WordPress
+ * Text Domain: Домен перевода для темы. Нужен чтобы можно было перевести описание указанное в Description. Например: twentythirteen
+ * Version:     1.0
+ */
+
+body {
+    background: #F2F1EC;
+    max-width: 700px;
+    margin: 2em auto;
+}
+
+.header, .footer {
+    margin: 2em auto;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+
+.text {
+  top: 6%;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-family: 'Oswald';
+  line-height: 50px;
+}
+.text span {
+  color: rgb(0, 0, 0);
+  font-size: 4em;
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: 5px;
+  -webkit-transition: 2s;
+  transition: 2s;
+  text-shadow: 0px 0px 0px #e9e9e9;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  cursor: default;
+}
+.text span:hover {
+  text-shadow: -8px 8px 0px #a1a1a1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  top: -8px;
+  left: 8px;
+}
+.text span.space {
+  width: 20px;
+  height: 100%;
+}

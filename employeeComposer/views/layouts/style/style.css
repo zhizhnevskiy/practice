@@ -1,0 +1,28 @@
+body {
+    font-family: Calibri;
+    text-align: center;
+}
+
+table {
+    border: 3px grey outset;
+    border-collapse: collapse;
+    width: 500px;
+    position: relative;
+    left: calc(50% - 250px);
+}
+
+th,
+tfoot {
+    background: #E0FFFF;
+}
+
+th,
+tr,
+td {
+    border: 1px black solid;
+    padding: 6px 10px;
+}
+
+.error {
+    color: #ff0000;
+}

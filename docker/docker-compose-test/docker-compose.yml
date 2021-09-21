@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  docker-compose-test:
+    build:
+      context: .
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/var/www/html
